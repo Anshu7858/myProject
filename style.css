@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'NOto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(18, 16, 16);
+    color: whitesmoke;
+    padding: 18px 12px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding:0px 15px;
+}
+
+ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 50ms ease-in;
+}
+
+ul >li> a:hover{
+   color: rgb(71, 119, 161);
+}
+
+main{
+ min-height: 87vh;   
+}
+
+footer{
+    background: rgb(9, 9, 9);
+    color: rgb(191, 205, 205);
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+}
