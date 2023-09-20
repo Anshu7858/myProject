@@ -10,7 +10,9 @@
 <body>
     <header>
         <nav>
-            <div class="logo">iValidateor</div>
+            <div class="logo">
+                <img src="img/email.svg" alt="image">
+                iValidateor</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -21,7 +23,32 @@
     </header>
 
     <main>
+        <div class="centener">
+            <h1>Enter Your Valide Email</h1>
+            <form action="/summit">
+                <!-- text input for user -->
+                <label for="userName">userName:</label>
+                <input type="text" name="userName" id="userName" required>
+                <br><br>
 
+                <!-- input for password -->
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+            <br><br>
+
+            <!-- radio button for gender -->
+            <label>Gender:</label>
+            <input type="radio" name="male" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- summit buttton -->
+            <input type="submit" value="Summit">
+            </form>
+        </div>
     </main>
 
     <footer>
